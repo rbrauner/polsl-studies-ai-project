@@ -10,10 +10,10 @@ from tensorflow.keras.models import Sequential
 
 import pathlib
 
-data_dir = "nucleus_images_blue/nucleus"
+data_dir = "nucleus_images_blue"
 data_dir = pathlib.Path(data_dir)
 
-images = list(data_dir.glob("*.png"))
+images = list(data_dir.glob("*/*.*"))
 images_count = len(images)
 print(images_count)
 
