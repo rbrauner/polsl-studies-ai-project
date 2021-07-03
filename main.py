@@ -104,7 +104,8 @@ def fit_model(train_ds, val_ds):
         model.summary()
 
         # train model
-        results = model.fit(train_ds, validation_data=val_ds, batch_size=batch_size, epochs=epochs)
+        results = model.fit(train_ds, validation_data=val_ds,
+                            batch_size=batch_size, epochs=epochs)
 
     return results
 
