@@ -1,3 +1,4 @@
+import os
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
@@ -111,6 +112,9 @@ def fit_model(train_ds, val_ds):
 
 
 if __name__ == '__main__':
+    # disable GPU
+    os.environ["CUDA_VISIBLE_DEVICES"]="-1"    
+
     # prepare data_dir
     data_dir = "data_dir"
     data_dir = pathlib.Path(data_dir)
