@@ -11,7 +11,7 @@ from tensorflow.keras.models import Sequential
 import pathlib
 
 # prepare data_dir
-data_dir = "nucleus_images_blue"
+data_dir = "data_dir"
 data_dir = pathlib.Path(data_dir)
 
 # get images and images_count
@@ -84,7 +84,7 @@ model.compile(optimizer='adam',
 model.summary()
 
 # train model
-epochs=2
+epochs=1
 history = model.fit(
   train_ds,
   validation_data=val_ds,
