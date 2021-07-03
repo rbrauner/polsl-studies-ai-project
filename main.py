@@ -20,7 +20,7 @@ images_count = len(images)
 print(images_count)
 
 # set parameters for the loader
-batch_size = 32
+batch_size = 2
 img_height = 1376
 img_width = 1038
 
@@ -84,7 +84,7 @@ model.compile(optimizer='adam',
 model.summary()
 
 # train model
-epochs=10
+epochs=2
 history = model.fit(
   train_ds,
   validation_data=val_ds,
