@@ -94,12 +94,12 @@ def fit_model(train_ds, val_ds):
             layers.Dropout(0.1),
             layers.Conv2D(64, (3, 3), activation='elu',
                           kernel_initializer='he_normal', padding='same'),
-            layers.Conv2D(1, (1, 1), activation='sigmoid'),
+            # layers.Conv2D(1, (1, 1), activation='sigmoid'),
         ])
 
         # compile model
         model.compile(optimizer='adam',
-                      loss='binary_crossentropy', metrics=[mean_iou])
+                      loss='binary_crossentropy', metrics=["accuracy"])
 
         # model summary
         model.summary()
