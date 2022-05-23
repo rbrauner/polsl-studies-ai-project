@@ -35,7 +35,7 @@ jupyter-core==4.7.1
 lensfun==0.3.95
 lightdm-gtk-greeter-settings==1.2.2
 louis==3.19.0
-lxml==4.6.3
+lxml==4.6.5
 Markdown==3.3.4
 matplotlib-inline==0.1.2
 meld==3.20.4
