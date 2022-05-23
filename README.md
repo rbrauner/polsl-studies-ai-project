@@ -10,4 +10,4 @@
 
 ## Info
 
-Zip files in [https://github.com/rbrauner/polsl-nsi-ai-project/releases/tag/v1.0.1](release)
+Zip files in [release](https://github.com/rbrauner/polsl-nsi-ai-project/releases/tag/v1.0.1).
