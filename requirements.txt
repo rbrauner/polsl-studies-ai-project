@@ -31,7 +31,7 @@ ipython-genutils==0.2.0
 isc==2.0
 jedi==0.18.0
 jupyter-client==7.0.2
-jupyter-core==4.7.1
+jupyter-core==4.11.2
 lensfun==0.3.95
 lightdm-gtk-greeter-settings==1.2.2
 louis==3.19.0
